@@ -2,6 +2,10 @@
 
 <%= render @message %>
 
-<%= cubicle_for @message, @user, exclude_current_user: false do |users| %>
-  <%= users.map(&:username).to_sentence %> <%= users.size > 1 ? "are" : "is" %> watching this message.
+<%= cubicle_for @message, @user, appear_trigger: :focus, disappear_trigger: :blur, trigger_root: "#comment" do |users| %>
+  <% if users.present? %>
+    <%= users.map(&:username).to_sentence %> <%= users.size > 1 ? "are" : "is" %> typing...
+  <% end %>
 <% end %>
+
+<%= text_field_tag :comment %>
