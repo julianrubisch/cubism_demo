@@ -10,8 +10,8 @@ class MessagesController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_message
       @message = Message.find(params[:id])
-    end
- 
+    end 
+
     def set_user
       @user = User.find(params[:user_id])
     end
