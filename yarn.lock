@@ -20,10 +20,24 @@
   resolved "https://registry.yarnpkg.com/@hotwired/turbo/-/turbo-7.1.0.tgz#27e44e0e3dc5bd1d4bda0766d579cf5a14091cd7"
   integrity sha512-Q8kGjqwPqER+CtpQudbH+3Zgs2X4zb6pBAlr6NsKTXadg45pAOvxI9i4QpuHbwSzR2+x87HUm+rot9F/Pe8rxA==
 
+"@minthesize/cubism@^0.1.0-pre9":
+  version "0.1.0-pre9"
+  resolved "https://registry.yarnpkg.com/@minthesize/cubism/-/cubism-0.1.0-pre9.tgz#08a0d0dc199b6e7841d871748dac76d6a48873eb"
+  integrity sha512-acn3UFVRtLLrUE/k64U58BFvae4YgLquGAPadDYOVTkUNOfVb1ZMVKEPDf7a3Lb74dCW1+H4G2TmJ3/990ByAg==
+  dependencies:
+    cable_ready "5.0.0-pre8"
+
 "@rails/actioncable@^6.0.0":
   version "6.1.4"
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-6.1.4.tgz#c3c5a9f8302c429af9722b6c50ab48049016d2a3"
   integrity sha512-0LmSKJTuo2dL6BQ+9xxLnS9lbkyfz2mBGeBnQ2J7o9Bn0l0q+ZC6VuoZMZZXPvABI4QT7Nfknv5WhfKYL+boew==
+
+cable_ready@5.0.0-pre8:
+  version "5.0.0-pre8"
+  resolved "https://registry.yarnpkg.com/cable_ready/-/cable_ready-5.0.0-pre8.tgz#fa1b4d6f980f631ff3c895f3007a6789b2e47de7"
+  integrity sha512-5TyAp0DcYiv15YGlAI4WqEBw8Mz/lARSz/pIwEEVWWUnqWQhbsMqCIYIsQoV3IXudKOowaSbukbPRYFN0PYzKg==
+  dependencies:
+    morphdom "^2.6.1"
 
 esbuild-android-arm64@0.14.11:
   version "0.14.11"
@@ -138,3 +152,8 @@ esbuild@^0.14.11:
     esbuild-windows-32 "0.14.11"
     esbuild-windows-64 "0.14.11"
     esbuild-windows-arm64 "0.14.11"
+
+morphdom@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/morphdom/-/morphdom-2.6.1.tgz#e868e24f989fa3183004b159aed643e628b4306e"
+  integrity sha512-Y8YRbAEP3eKykroIBWrjcfMw7mmwJfjhqdpSvoqinu8Y702nAwikpXcNFDiIkyvfCLxLM9Wu95RZqo4a9jFBaA==

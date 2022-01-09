@@ -4,6 +4,7 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/turbo-rails": "^7.1.0",
+    "@minthesize/cubism": "^0.1.0-pre9",
     "esbuild": "^0.14.11"
   },
   "scripts": {

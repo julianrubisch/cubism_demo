@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "kredis", "~> 1.0"
+
+gem "cubism", "~> 0.1.0.pre9"
