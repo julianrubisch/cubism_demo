@@ -1,3 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <%= render @message %>
+
+<%= cubicle_for @message, @user, exclude_current_user: false do |users| %>
+  <%= users.map(&:username).to_sentence %> <%= users.size > 1 ? "are" : "is" %> watching this message.
+<% end %>
